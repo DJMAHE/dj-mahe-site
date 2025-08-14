@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music - DJ Mahé</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="music.html" class="active">MUSIC</a>
+            <a href="tour.html">TOUR</a>
+            <a href="projects.html">PROJECTS</a>
+            <a href="contact.html">CONTACT</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Music</h1>
+        <div class="projects-container">
+            <div class="project-card">
+                <iframe width="100%" height="250" src="https://www.youtube.com/embed/VIDEO_ID" 
+                        title="Latino Vibes Mix" frameborder="0" allowfullscreen></iframe>
+                <h2>Latino Vibes Mix</h2>
+                <p>Un mix énergique pour danser toute la nuit sur des sons latino 🔥</p>
+            </div>
+
+            <div class="project-card">
+                <iframe width="100%" height="250" src="https://www.youtube.com/embed/VIDEO_ID" 
+                        title="Afrohouse Session" frameborder="0" allowfullscreen></iframe>
+                <h2>Afrohouse Session</h2>
+                <p>Un set afrohouse profond et rythmé, parfait pour l'ambiance club ✨</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© DJ Mahé — Mahé Music</p>
+    </footer>
+</body>
+</html>

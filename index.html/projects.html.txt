@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projets - DJ Mahé</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            padding: 8px 15px;
+            border-radius: 8px;
+            background-color: rgba(255, 255, 255, 0.1);
+            transition: background 0.3s, transform 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #ff4b2b;
+            transform: scale(1.05);
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .projects-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .project-card {
+            background-color: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            overflow: hidden;
+            max-width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .project-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .project-card h2 {
+            margin: 10px 0;
+            color: #ff4b2b;
+        }
+
+        .project-card p {
+            padding: 0 10px 15px;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+            background-color: rgba(255, 255, 255, 0.05);
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="music.html">MUSIC</a>
+            <a href="tour.html">TOUR</a>
+            <a href="projects.html" class="active">PROJECTS</a>
+            <a href="contact.html">CONTACT</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>PROJECTS</h1>
+
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="WhatsApp Image 2025-07-17 at 15.17.35_84560764.jpg" alt="Latino Party Mauritius">
+                <h2>Latino Party Mauritius</h2>
+                <p>DJ Mahé & Bay Music @ Axo Beach Club, Flic en Flac.<br>
+                   <strong>Date :</strong> 25 Juillet – à partir de 23h.<br>
+                   <strong>Entrée :</strong> 300 Rs.</p>
+            </div>
+
+            <div class="project-card">
+                <img src="WhatsApp Image 2025-06-17 at 15.45.35_c48e977b.jpg" alt="Afrohouse Party Mauritius">
+                <h2>Afrohouse Party Mauritius</h2>
+                <p>DJ Mahé @ Axo Beach Club, Flic en Flac.<br>
+                   <strong>Date :</strong> 27 Juin – à partir de 22h.<br>
+                   <strong>Entrée :</strong> 200 Rs.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© DJ Mahé — Mahé Music</p>
+    </footer>
+</body>
+</html>

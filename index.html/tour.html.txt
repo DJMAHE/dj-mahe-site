@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour - DJ Mahé</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="music.html">MUSIC</a>
+            <a href="tour.html" class="active">TOUR</a>
+            <a href="projects.html">PROJECTS</a>
+            <a href="contact.html">CONTACT</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>TOUR</h1>
+        <div class="projects-container">
+            <div class="project-card">
+                <h2>Latino Party Mauritius</h2>
+                <p><strong>Date :</strong> 25 Juillet 2025<br>
+                   <strong>Lieu :</strong> Axo Beach Club, Flic en Flac<br>
+                   <strong>Entrée :</strong> 300 Rs</p>
+            </div>
+
+            <div class="project-card">
+                <h2>Afrohouse Party Mauritius</h2>
+                <p><strong>Date :</strong> 27 Juin 2025<br>
+                   <strong>Lieu :</strong> Axo Beach Club, Flic en Flac<br>
+                   <strong>Entrée :</strong> 200 Rs</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© DJ Mahé — Mahé Music</p>
+    </footer>
+</body>
+</html>
